@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-github-cicd-pipeline-example",
+  "version": "1.0.0",
+  "description": "To demonstrate CICD pipeline implementation using NodeJS and Github combination",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevlamp/NodeJS-Github-CICD-Pipeline-Example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdevlamp/NodeJS-Github-CICD-Pipeline-Example/issues"
+  },
+  "homepage": "https://github.com/webdevlamp/NodeJS-Github-CICD-Pipeline-Example#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0",
+    "supertest": "^6.3.0"
+  }
+}
